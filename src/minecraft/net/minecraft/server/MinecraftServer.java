@@ -1665,6 +1665,12 @@ public abstract class MinecraftServer implements ICommandSender, Runnable, IPlay
     public static void main(String[] par0ArrayOfStr)
     {
         FMLRelauncher.handleServerRelaunch(new ArgsWrapper(par0ArrayOfStr));
+        FMLLog.info("");
+        FMLLog.info("Bukkit + Forge + Spigot em desenvolvimento!");
+        FMLLog.info("Apoios ->");
+        FMLLog.info("GilbertosCode, Discord: ! Gilberto#0159");
+        FMLLog.info("Servidor TotalCraft, Discord: https://discord.com/invite/8frSM4m");
+        FMLLog.info("");
     }
 
     @SideOnly(Side.SERVER)
